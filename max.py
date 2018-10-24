@@ -4,8 +4,6 @@ def activation_fn(x):
 		return x
 	return 0
 
-# step 1 - initialize weights and activations
-
 n=int(input("Enter no. of neurons:"))
 activations=[0.0]*n
 print("\nEnter initial values of activations:")
@@ -31,8 +29,9 @@ while True:
 		break
 	print('Iteration {} - activations = {}'.format(count, a_old))
 	a_new = []
+	
 print('Iteration {} - activations = {}'.format(count, a_new))
-#print ('\nThe final activations are {}'.format(a_new))
+
 
 i=0
 while a_new[i]==0:

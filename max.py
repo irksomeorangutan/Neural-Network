@@ -1,4 +1,3 @@
-from random import uniform
 def activation_fn(x):
 	if x>0:
 		return x
